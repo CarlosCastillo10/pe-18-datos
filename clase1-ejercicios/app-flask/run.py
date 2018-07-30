@@ -31,7 +31,7 @@ def registros():
     if request.method == 'POST':
         primero = request.form['primero']
         primero = primero.upper()
-        print "%s" % (primero)
+        print( "%s" % (primero))
  
         if form.validate():
             connection = sqlite3.connect("../notebooks/instituciones.db")
@@ -41,7 +41,7 @@ def registros():
             tabla = data.to_html()
             data = data.to_dict(orient="records")
             numero = len(data)
-            print "%s ---- numero" % numero
+            print ("%s ---- numero" % numero)
         else:
             flash('Error')
  
