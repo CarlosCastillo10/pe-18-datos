@@ -39,7 +39,10 @@ pickleshare==0.7.4
 post==1.0.1
 prompt-toolkit==1.0.15
 ptyprocess==0.5.2
+<<<<<<< HEAD
 public
+=======
+>>>>>>> upstream/master
 Pygments==2.2.0
 pyparsing==2.2.0
 python-dateutil==2.7.2
@@ -48,6 +51,10 @@ pyzmq==17.0.0
 qtconsole==4.3.1
 query-string==1.0.1
 request==1.0.1
+<<<<<<< HEAD
+=======
+scandir==1.7
+>>>>>>> upstream/master
 Send2Trash==1.5.0
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
